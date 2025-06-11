@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Josefin Sans', sans-serif;
-  background: linear-gradient(to bottom right, #fcefee, #fffbe7);
+  background: linear-gradient(to bottom right, #fef6f9, #fffbe7);
   color: #333;
   scroll-behavior: smooth;
 }
@@ -31,4 +31,15 @@ img {
   max-width: 100%;
   border-radius: 1rem;
   box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+.quote {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 1.5rem;
+  border-left: 6px solid #ec4899;
+  font-style: italic;
+  font-size: 1.1rem;
+  margin: 2rem auto;
+  max-width: 600px;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
