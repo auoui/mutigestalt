@@ -6,7 +6,12 @@ const liste = [
   "Dein Lachen hat heilende Wirkung.",
   "Du siehst die Dinge, die andere übersehen.",
   "Deine Fragen sind Geschenke.",
-  "Du hast die seltene Gabe, still präsent zu sein."
+  "Du hast die seltene Gabe, still präsent zu sein.",
+  "Du trägst Schönheit ins Alltägliche.",
+  "Dein Blick auf die Welt macht sie heller.",
+  "Man fühlt sich bei dir einfach sicher.",
+  "Du nimmst Menschen ernst, ohne sie zu beschweren.",
+  "Du kannst zuhören, wie andere atmen."
 ]
 
 export default function Komplimente() {
