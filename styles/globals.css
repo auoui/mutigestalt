@@ -4,7 +4,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Josefin Sans', sans-serif;
-  background: linear-gradient(to bottom right, #fef6f9, #fffbe7);
+  background: url('/pastell-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
   color: #333;
   scroll-behavior: smooth;
 }
