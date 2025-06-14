@@ -1,1 +1,1 @@
-// heldenreise page content placeholder
+// Held*innenreise – Platzhalter

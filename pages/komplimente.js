@@ -1,1 +1,1 @@
-// komplimente page content placeholder
+// Komplimente – Platzhalter

@@ -1,1 +1,1 @@
-// index page content placeholder
+// Neue Startseite mit Menü, Box tiefer gesetzt etc.

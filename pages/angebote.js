@@ -1,1 +1,1 @@
-// angebote page content placeholder
+// Angebote – Platzhalter

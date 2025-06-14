@@ -1,1 +1,1 @@
-// mehr über mich page content placeholder
+// Mehr über mich – Platzhalter
