@@ -1,9 +1,10 @@
 
-export default function Page() {
+export default function Mehr über mich() {
   return (
-    <div>
-      <h1>Diese Seite ist in Arbeit.</h1>
-      <p><a href="/">Gehe zurück auf Start</a></p>
+    <div className="main">
+      <h1>Mehr über mich</h1>
+      <p>Platzhalter-Inhalt für die Seite Mehr über mich.</p>
+      <p><a href="/">← Gehe zurück auf Start</a></p>
     </div>
   )
 }
