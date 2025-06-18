@@ -1,29 +1,34 @@
-import Layout from '../components/Layout';
-import styles from '@/styles/Home.module.css';
+
+import Head from 'next/head'
+import styles from '@/styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
-    <Layout>
-      <div className={styles.main}>
-        <div className={styles.menu}>Start | Held*innenreise | Angebote | Komplimente | Mehr über mich</div>
-        <div className={styles.hero}></div>
-        <div className={styles.aboutBox}>
+    <div className={styles.container}>
+      <Head>
+        <title>Fine Belger – Mutige Schritte</title>
+      </Head>
+      <main className={styles.main}>
+        <div className={styles.menu}>
+          <Link href="/">Start</Link>
+          <Link href="/heldenreise">Held*innenreise</Link>
+          <Link href="/angebote">Angebote</Link>
+          <Link href="/komplimente">Komplimente</Link>
+          <Link href="/mehr-ueber-mich">Mehr über mich</Link>
+        </div>
+        <div className={styles.contentBox}>
           <h2>Über mich</h2>
-          <p>„Meine Heldenreise hat mir deutlich gemacht, weshalb ich in meinem Leben bisher so viele unterschiedliche Dinge lernen wollte. [...]“</p>
+          <p>
+            „Meine Heldenreise hat mir deutlich gemacht, weshalb ich in meinem Leben bisher so viele unterschiedliche
+            Dinge lernen wollte. Ich habe während meiner Reise das letzte Puzzleteil gefunden, welches mir noch gefehlt
+            hatte, um alles miteinander zu verbinden. Die Heldenreise ist für mich, mein inneres Strahlen in Verbindung
+            mit anderen zu bringen und die Erfahrung, dass Verbindung auch Vertrauen bedeuten kann. Selbsterfahrungsprozesse
+            zu unterstützen bedeutet für mich, deutlich werden zu lassen, wie du dir selbst die Erlaubnis geben kannst,
+            dein Leben so zu führen, wie du es möchtest.“
+          </p>
         </div>
-        <div className={styles.offers}>
-          <div>Held*innenreise</div>
-          <div>Aktuelles</div>
-          <div>Einzel-Sessions Gestalttherapie i.A.</div>
-          <div>Komplimente machen</div>
-          <div>Was will ich wirklich?</div>
-        </div>
-        <footer>
-          <p>Kontakt & Anmeldung<br/>
-          Fine Belger Platzhalter<br/>
-          Bald auch mit Anmeldeformular – oder schreibe an fine.belger@posteo.de</p>
-        </footer>
-      </div>
-    </Layout>
+      </main>
+    </div>
   )
 }
