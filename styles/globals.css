@@ -1,25 +1,7 @@
-
 body {
   margin: 0;
-  font-family: sans-serif;
-  background-color: #f9f6f2;
-}
-nav {
-  display: flex;
-  justify-content: flex-end;
-  padding: 1rem;
-  gap: 1rem;
-}
-nav a {
-  text-decoration: none;
-  color: #333;
-}
-.main {
-  padding: 2rem;
-}
-footer {
-  margin-top: 4rem;
-  text-align: center;
-  font-size: 0.9rem;
-  color: #666;
+  font-family: 'Josefin Sans', sans-serif;
+  background-image: url('/pastel-bg.jpg');
+  background-size: cover;
+  background-position: center;
 }
