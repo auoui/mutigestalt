@@ -1,10 +1,10 @@
-
-export default function Mehr über mich() {
+export default function MehrUeberMich() {
   return (
     <div className="main">
       <h1>Mehr über mich</h1>
-      <p>Platzhalter-Inhalt für die Seite Mehr über mich.</p>
-      <p><a href="/">← Gehe zurück auf Start</a></p>
+      <p>
+        Willkommen auf der Seite "Mehr über mich". Hier findest du bald mehr Informationen über Fine Belger und ihren Weg zur Gestalttherapie, zur Heldenreise und zu den mutigen Schritten.
+      </p>
     </div>
-  )
+  );
 }
