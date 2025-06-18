@@ -1,24 +1,34 @@
-.main {
-  font-family: 'Josefin Sans', sans-serif;
-  background-image: url('/pastel-bg.jpg');
+
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: url('/pastel-bg.jpg') no-repeat center center;
   background-size: cover;
-  background-position: center;
-  padding: 2rem;
-  color: #333;
 }
+
+.main {
+  padding-top: 600px;
+  width: 100%;
+  max-width: 1000px;
+}
+
 .menu {
   position: absolute;
-  top: 40px;
-  right: 60px;
+  top: 50px;
+  right: 50px;
+  display: flex;
+  gap: 20px;
+  font-family: 'Josefin Sans', sans-serif;
 }
-.aboutBox {
-  background: rgba(255, 255, 255, 0.7);
-  padding: 1rem;
-  margin-top: 600px;
-}
-.offers {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  margin-top: 400px;
+
+.contentBox {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 2rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+  text-align: center;
 }
