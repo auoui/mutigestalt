@@ -2,30 +2,24 @@
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: #f9f6f2;
 }
-.menu {
+nav {
   display: flex;
   justify-content: flex-end;
+  padding: 1rem;
   gap: 1rem;
-  padding: 1rem;
 }
-.ueber-mich-box {
-  background: rgba(255,255,255,0.8);
-  margin-top: 600px;
-  padding: 1rem;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+nav a {
+  text-decoration: none;
+  color: #333;
 }
-.angebote {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.main {
   padding: 2rem;
-  gap: 1rem;
 }
 footer {
-  margin-top: 2rem;
+  margin-top: 4rem;
   text-align: center;
-  padding: 2rem;
   font-size: 0.9rem;
+  color: #666;
 }
