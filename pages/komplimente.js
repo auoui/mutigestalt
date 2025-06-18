@@ -1,32 +1,24 @@
 import Layout from '../components/Layout';
 
-const compliments = [
-  "Du bringst Menschen zum Leuchten.",
-  "In deiner Nähe fühlt man sich willkommen.",
-  "Deine Gedanken haben Tiefe und Klarheit.",
-  "Du hast ein feines Gespür für das Wesentliche.",
-  "Du inspirierst andere, ohne es zu merken.",
-  "Mit dir wird alles ein bisschen schöner.",
-  "Dein Mut ist ansteckend.",
-  "Dein Lachen macht Räume heller.",
-  "Deine Worte berühren.",
-  "Du bist auf deine Weise einzigartig und wunderbar."
+const komplimente = [
+  "Du bringst Licht in jeden Raum.",
+  "Dein Lächeln ist ansteckend.",
+  "Du hast eine wunderbare Ausstrahlung.",
+  "Deine Gedanken sind wertvoll.",
+  "Es ist schön, dass es dich gibt.",
+  "Du hast ein großes Herz.",
+  "Du inspirierst andere.",
+  "Deine Präsenz tut gut.",
+  "Du bist ein Geschenk für diese Welt."
 ];
 
-function getRandomCompliment() {
-  return compliments[Math.floor(Math.random() * compliments.length)];
-}
-
 export default function Komplimente() {
-  const compliment = getRandomCompliment();
+  const random = komplimente[Math.floor(Math.random() * komplimente.length)];
   return (
     <Layout>
       <h1>Komplimente</h1>
-      <p>{compliment}</p>
-      <p>Zweistündiger Workshop rund um Komplimente machen und Komplimente empfangen. 
-      Lust mit mir die Kunst der Komplimente zu erforschen? Anmeldung an Email […]. 
-      10–20 € je nachdem, was du geben kannst.</p>
-      <a href="/">Gehe zurück auf Start</a>
+      <p>{random}</p>
+      <p>Zweistündiger Workshop rund um Komplimente machen und Komplimente empfangen. Lust mit mir die Kunst der Komplimente zu erforschen? Anmeldung an Email […]. 10–20 € je nachdem, was du geben kannst.</p>
     </Layout>
   );
 }
